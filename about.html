@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/logo-1.png">
+    <link rel="stylesheet" href="home.css">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="Images/logo-1.png"></a>
+            <p>Home Page</p>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!--about us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the largest computer sceince college in Hargeisa</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+               Vero, recusandae sequi inventore sunt ipsum velit ratione. Deleniti repellat recusandae non 
+               repellendus voluptatem? Quia atque vero vel, in unde eaque possimus.</p>
+               <a class="hero-btn blue-btn" href="">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/explore.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Recusandae, consequatur id facilis vero saepe <br>cumque accusantium numquam 
+        reprehenderit sequi iure molestias praesentium 
+        facere fugit aliquam expedita magni ex asperiores voluptas.</p>
+
+        <div class="icons">
+           <a target="_blank" href="https://www.facebook.com/TisqaadComputerScienceCollege/"><i class="fa-brands fa-facebook"></i></a> 
+           <a href=""><i class="fa-brands fa-twitter"></i></a> 
+           <a href=""><i class="fa-brands fa-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-whatsapp"></i></a> 
+        </div>
+        <p>Made by  <i class="fa-regular fa-heart"></i> Dev. Abdimajiid</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--javascript-->
+<script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu (){
+            navLinks.style.right = "0"
+        }
+        function hideMenu (){
+            navLinks.style.right = "-200px"
+        }
+</script>
+
+ 
+</body>
+</html>
