@@ -72,7 +72,7 @@
                 <input name="email" type="Email" placeholder="Enter email Address" required>
                 <input name="subject" type="text" placeholder="Enter your subject" required>
                 <textarea name="message" rows="8" placeholder="Message" required></textarea>
-                <button type="submit" class="hero-btn blue-btn">Send 
+                <button type="submit" onclick="Message()" class="hero-btn blue-btn">Send 
                     Message</button>
             </form>
 
@@ -139,6 +139,12 @@
         }
 </script>
 
+<script>
+    function Message()
+    {
+        alert("Oops, Something went wrong, Please Try again later");
+    }
+</script>
  
 </body>
 </html>
